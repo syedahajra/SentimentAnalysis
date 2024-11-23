@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mood Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Mood Tracker</h1>
+        <form id="journalForm">
+            <textarea id="journalEntry" placeholder="Write your thoughts..." required></textarea>
+            <button type="submit">Analyze Mood</button>
+        </form>
+        <div id="result">
+            <h3>Analysis:</h3>
+            <p id="sentiment"></p>
+        
+            <!-- <h3>Analysis:</h3>
+            <p id="analysis"></p> -->
+        
+            <h3>Recommendations:</h3>
+            <ul id="recommendations"></ul> <!-- Ensure this element exists -->
+        </div>
+        
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
